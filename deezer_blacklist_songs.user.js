@@ -223,12 +223,11 @@
                 has_next_page = batch_data.me.bannedFromRecommendation[`${strings[1]}s`].pageInfo.hasNextPage;
             }
 
-            // Convert array of track IDs to a JSON object where each ID maps to 1
-            const tracksJson = {};
+            const tracks = {};
             all_items.forEach(id => {
-                tracksJson[id] = 1;
+                tracks[id] = 1;
             });
-            return tracksJson;
+            return tracks;
         }
     }
 
