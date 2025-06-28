@@ -7,7 +7,10 @@ Every song/artist which you told Deezer to not recommend anymore gets blackliste
 Also adds a button to the player bar to blacklist the currently playing song locally.
 ![Unbenannt](https://github.com/user-attachments/assets/0b6f78b6-2046-489c-94c9-884782725652)
 
-If you press this button, the currently playing track will be added to a local blacklist and won't be added to the queue anymore, unless you directly play that song by clicking on it specifically. This can be useful if you don't want to influence the algorithm (e.g. in an album).
+If you press this button, the currently playing track/artist will be added to a local blacklist and won't be added to the queue anymore, unless you directly play that song by clicking on it specifically. This can be useful if you don't want to influence the algorithm (e.g. in an album).
+
+- Left-Click: Blacklist Song
+- Right-Click: blacklist Artist
 
 ### Troubleshooting
 If you for some reason cannot play a specific song, try removing it via the DevTools. The script exposes a global `blacklist_plugin` class which can be used to add/remove a specified or the currently playing song/artist to/from the blacklist.
