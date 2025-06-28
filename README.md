@@ -14,3 +14,9 @@ If you for some reason cannot play a specific song, try removing it via the DevT
 
 ### Note
 The local blacklist is stored in the localstorage, so if that gets cleared, the local blacklist will be gone, the "don't recommend" blacklist will still work.
+
+
+## Links
+[GreazyFork](https://greasyfork.org/en/scripts/541034-deezer-blacklist-songs)
+
+[GitHub](https://github.com/bertigert/Deezer-Blacklist-Songs)
