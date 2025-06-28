@@ -1,5 +1,8 @@
 # Deezer-Blacklist-Songs
 Userscript/plugin for Deezer to blacklist songs from playing, not just from getting recommended.
+Tested on Chrome w/ Violentmonkey.
+
+Also supports the Desktop application thanks to [DeezMod](https://github.com/bertigert/DeezMod) (Download [here](https://github.com/bertigert/DeezMod/tree/main/plugins/blacklist_songs))
 
 ## Usage
 Every song/artist which you told Deezer to not recommend anymore gets blacklisted from playing, unless specifically clicked.
