@@ -2,7 +2,7 @@
 // @name        Deezer Blacklist Songs
 // @description Blacklists songs from being played in deezer
 // @author      bertigert
-// @version     1.0.1
+// @version     1.1.0
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=deezer.com
 // @namespace   Violentmonkey Scripts
 // @match       https://www.deezer.com/*
